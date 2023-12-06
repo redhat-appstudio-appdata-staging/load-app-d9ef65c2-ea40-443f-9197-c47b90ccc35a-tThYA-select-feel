@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: resources-burner
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/test-rhtap-100-tenant/load-app-d9ef65c2-ea40-443f-9197-c47b90ccc35a/resources-burner@sha256:fcc1be64bef10fe751590b27681627e297605c8b82e42527ae2e095ab3d95e71
         imagePullPolicy: Always
         name: container-image
         resources: {}
